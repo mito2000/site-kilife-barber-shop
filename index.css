@@ -1,0 +1,592 @@
+body {
+    box-sizing: border-box;
+    overflow-x:hidden ;
+}
+
+header {
+    width: 100%;
+    height: 50%;
+}
+
+nav {
+    width: 100%;
+    height: 83px;
+    background-color: #F6BB81;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.divheader1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    position: relative;
+    top: 6px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 26px;
+}
+
+.logonoir {
+    margin-right: 206px;
+}
+
+.boutoncontact {
+    display: inline-block;
+    margin-left: 36px;
+    width: 110px;
+    height: 30px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    text-align: center;
+    padding: 5px 0px 0px 0px;
+}
+
+.divheader2 {
+    width: 477px;
+    height: 500px;
+    background-color: #F6BB81;
+    padding: 0px 0px 0px 20px;
+}
+
+.divheader3 {
+    width: 260px;
+    height: 40px;
+    background-color: #000000;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+    top: 70px;
+}
+
+.fa-whatsapp {
+    color: #FFFFFF;
+    font-size: 25px;
+    position: relative;
+    top: 3px;
+    left: 10px;
+}
+
+.paradivheader3 {
+    color: #FFFFFF;
+    position: relative;
+    bottom: 6px;
+    left: 68px;
+}
+
+.para3divheader2 {
+    padding-right: 180px;
+    position: relative;
+    top: 56px;
+}
+
+.para2divheader2 {
+    font-weight: bolder;
+    font-size: 30px;
+    position: relative;
+    top: 70px;
+}
+
+.para1divheader2 {
+    font-weight: bolder;
+    font-size: 30px;
+    position: relative;
+    top: 97px;
+}
+
+.paracentral {
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.image1 {
+    margin-left: 1365px;
+    position: relative;
+    bottom: 50px;
+}
+
+.conteneur1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    bottom: 300px;
+    padding-left: 350px;
+}
+
+.conteneur2 {
+    width: 100%;
+    display: flex;
+}
+
+.conteneur3 {
+    width: 100%;
+    display: flex;
+}
+
+.divmain1 {
+    width: 805.5px;
+    height: 151px;
+    border-bottom: 1px solid #ac6723;
+    border-top: 2px solid #ac6723;
+    border-left: 2px solid #ac6723;
+    border-right: 2px solid #ac6723;
+}
+
+.divmain2 {
+    width: 402px;
+    height: 302px;
+    border-left: 2px solid #ac6723;
+    border-right: 1px solid #ac6723;
+    border-top: 1px solid #ac6723;
+    border-bottom: 1px solid #ac6723;
+}
+
+.divmain3 {
+    width: 402px;
+    height: 302px;
+    border-left: 1px solid #ac6723;
+    border-right: 2px solid #ac6723;
+    border-top: 1px solid #ac6723;
+    border-bottom: 1px solid #ac6723;
+}
+
+.divmain4 {
+    width: 402px;
+    height: 302px;
+    border-left: 2px solid #ac6723;
+    border-right: 1px solid #ac6723;
+    border-top: 1px solid #ac6723;
+    border-bottom: 2px solid #ac6723;
+}
+
+.divmain5 {
+    width: 402px;
+    height: 302px;
+    border-left: 1px solid #ac6723;
+    border-right: 2px solid #ac6723;
+    border-top: 1px solid #ac6723;
+    border-bottom: 2px solid #ac6723;
+}
+
+.image2,
+.image3,
+.image4,
+.image5,
+.image6 {
+    position: relative;
+    top: 25px;
+    left: 30px;
+}
+
+.h1main1 {
+    color: #ac6723;
+    position: relative;
+    bottom: 105px;
+    left: 210px;
+}
+
+.paramain1 {
+    width: 440px;
+    position: relative;
+    bottom: 120px;
+    left: 210px;
+}
+
+.h1main2 {
+    color: #ac6723;
+    position: relative;
+    bottom: 105px;
+    left: 150px;
+}
+
+.h1main3 {
+    color: #ac6723;
+    position: relative;
+    bottom: 105px;
+    left: 150px;
+}
+
+.h1main4 {
+    color: #ac6723;
+    position: relative;
+    bottom: 105px;
+    left: 120px;
+}
+
+.h1main5 {
+    color: #ac6723;
+    position: relative;
+    bottom: 105px;
+    left: 150px;
+}
+
+.paramain2 {
+    padding: 0px 90px 0px 90px;
+    position: relative;
+    bottom: 90px;
+    left: 70px;
+}
+
+.paramain3 {
+    padding: 0px 90px 0px 90px;
+    position: relative;
+    bottom: 90px;
+    left: 70px;
+}
+
+.paramain4 {
+    padding: 0px 90px 0px 90px;
+    position: relative;
+    bottom: 90px;
+    left: 70px;
+}
+
+.paramain5 {
+    padding: 0px 90px 0px 90px;
+    position: relative;
+    bottom: 90px;
+    left: 70px;
+}
+
+.conteneur4 {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 180px;
+}
+
+.divmain6 {
+    width: 25%;
+    height: 35vh;
+    border: 2px solid #ac6723;
+}
+
+.image7 {
+    position: relative;
+    left: 20px;
+    top: 50px;
+}
+
+.paramain6 {
+    padding: 0px 75px 0px 75px;
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+}
+
+.h2main1 {
+    position: relative;
+    left: 130px;
+    bottom: 45px;
+    color: #ac6723;
+}
+
+.box1 {
+    position: relative;
+    left: 60px;
+}
+
+.box3 {
+    position: relative;
+    right: 60px;
+}
+
+.divmain7 {
+    width: 70%;
+    height: 60vh;
+    background-color: #000000;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divmain8 {
+    width: 400px;
+    height: 350px;
+}
+
+.h1main6 {
+    color: #F6BB81;
+}
+
+.paramain7 {
+    position: relative;
+    right: 80px;
+    top: 30px;
+    color: #F6BB81;
+    padding: 0px 90px 0px 90px;
+}
+
+.section1 {
+    position: relative;
+    left: 300px;
+    top: 20px;
+}
+
+.paramain10,
+.paramain11,
+.paramain12 {
+    width: 250px;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.conteneur5 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.conteneur6 {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    position: relative;
+    top: 20px;
+}
+
+.paramain10 {
+    position: relative;
+    right: 80px;
+}
+
+.image10 {
+    position: relative;
+    left: 482px;
+    bottom: 400px;
+}
+
+.section1 hr {
+    width: 700px;
+    height: 1px;
+    background-color: #ac6723;
+    position: relative;
+    right: 400px;
+    bottom: 7px;
+}
+
+.paramain8,
+.paramain9 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.paramain8 {
+    position: relative;
+    top: 27px;
+}
+
+.divfooter1 {
+    width: 75%;
+    height: 80vh;
+    background-color: #F6BB81;
+    position: relative;
+    left: 250px;
+    bottom: 235px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.divfooter2 {
+    position: relative;
+    right: 20px;
+    width: 63%;
+    height: 470px;
+}
+
+.parafooter1,
+.parafooter2 {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.parafooter2 {
+    position: relative;
+    bottom: 15px;
+}
+
+.parafooter4 {
+    position: relative;
+    bottom: 13px;
+    right: 52px;
+}
+
+.parafooter5 {
+    position: relative;
+    bottom: 13px;
+    left: 20px;
+}
+
+.parafooter6 {
+    position: relative;
+    bottom: 13px;
+    right: 52px;
+}
+
+.parafooter3 {
+    position: relative;
+    bottom: 29px;
+}
+
+.sectionfooter1 {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+}
+
+.divfooter3,
+.divfooter5 {
+    width: 30%;
+    height: 25px;
+    border: 2px solid #000000;
+    border-radius: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.divfooter9 {
+    position: relative;
+    top: 38px;
+    right: 143px;
+}
+
+.divfooter6 {
+    position: relative;
+    top: 13px;
+    right: 232px;
+}
+
+.divfooter4 {
+    width: 30%;
+    height: 25px;
+    border: 2px solid #000000;
+    border-radius: 40px;
+}
+
+.divfooter8 {
+    position: relative;
+    right: 190px;
+    bottom: 35px;
+}
+
+.divfooter7 {
+    position: relative;
+    bottom: 35px;
+}
+
+.divfooter6,
+.divfooter7,
+.divfooter8,
+.divfooter9 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    height: 30px;
+    width: 240px;
+    border: 2px solid #817c7c;
+}
+
+textarea {
+    border: 2px solid #817c7c;
+}
+
+.submit {
+    position: relative;
+    top: 63px;
+    width: 430px;
+    height: 40px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.sectionfooter2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 65px;
+}
+
+.divfooter10 {
+    width: 75%;
+    height: 15vh;
+    background-color: #000000;
+    position: relative;
+    left: 250px;
+    bottom: 105PX;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-brands {
+    color: #F6BB81;
+    font-size: 35px;
+}
+
+.fa-instagram {
+    position: relative;
+    right: 30px;
+}
+
+.fa-facebook {
+    position: relative;
+}
+
+label {
+    font-weight: bolder;
+    position: relative;
+    right: 60px;
+    bottom: 5px;
+}
+
+.fa-phone,
+.fa-mobile-screen {
+    position: relative;
+    left: 20px;
+    bottom: 12px;
+}
+
+.imagefooter1 {
+    position: relative;
+    left: 10px;
+}
